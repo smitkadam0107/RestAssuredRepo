@@ -5,7 +5,7 @@ import static org.hamcrest.Matchers.*;
 
 public class FirstTest {
 
-    @Test
+    @Test //this is first test
     public void testUsersAPI() {
         given()
                 .baseUri("https://jsonplaceholder.typicode.com")
