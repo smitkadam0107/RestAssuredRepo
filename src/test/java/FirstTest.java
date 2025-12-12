@@ -9,7 +9,7 @@ public class FirstTest {
     public void testUsersAPI() {
         given()
                 .baseUri("https://jsonplaceholder.typicode.com")
-        .when()
+        .when() // this is when function
                 .get("/users/1")
        .then()
                 .statusCode(200)
