@@ -9,7 +9,7 @@ public class FirstTest {
     public void testUsersAPI() {
         given()
                 .baseUri("https://jsonplaceholder.typicode.com")
-        .when()
+        .when() // this is when function
                 .get("/users/1")
        .then()
                 .statusCode(200)
@@ -17,7 +17,7 @@ public class FirstTest {
                 .body("address.geo.lng",equalTo( "81.1496"))
                 .body("username",equalTo("Bret")); // This is testing git commands pull
                 // this is testing of push
-       
+               //THIS CHANGE IS MADE ON SUDO
     }
 
 }
